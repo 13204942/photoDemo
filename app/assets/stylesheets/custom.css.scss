@@ -8,7 +8,7 @@ body {
 }
 
 .navbar-default {
-	background-color: #EFEFEB;
+	background-color: #292929;
 }
 
 .navbar-default .navbar-brand {
@@ -18,11 +18,19 @@ body {
 	font-size: 30px;
 }
 
-.navbar-default ,navbar-nav > li >a {
+.navbar-default .navbar-nav > li >a {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 16px;
 	font-weight: bold;
-	color: #0192B5;
+	color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	background-color: #D5641C
+}
+
+.navbar-default .navbar-header > a:hover, .navbar-default .navbar-header > a:focus {
+	color: #D5641C
 }
 
 .center {
