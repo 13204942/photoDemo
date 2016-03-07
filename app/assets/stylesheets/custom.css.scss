@@ -1,10 +1,11 @@
 @import "bootstrap";
 
 body {
-  background-image: image-url('background_image.jpg');
-  background-repeat: no-repeat;
-  color: #333333;
-  font-family: Arial, Helvetica, sans-serif;
+	padding-top: 70px;
+  	background-image: image-url('background_image.jpg');
+  	background-repeat: no-repeat;
+  	color: #333333;
+  	font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar-default {
