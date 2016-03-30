@@ -14,6 +14,7 @@ gem "paperclip", "~> 4.3"
 gem "paperclip-dropbox", ">= 1.1.7"
 gem "figaro"
 gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'devise'
 
 group :development, :test do
   gem 'byebug'
