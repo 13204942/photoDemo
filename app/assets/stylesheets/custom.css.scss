@@ -2,37 +2,39 @@
 
 body {
 	padding-top: 70px;
-  	background-image: image-url('background_image.jpg');
-  	background-repeat: no-repeat;
-  	background-attachment: fixed;
-  	color: #333333;
+  	//background-image: image-url('background_image.jpg');
+  	//background-repeat: no-repeat;
+  	//background-attachment: fixed;
+  	background-color: E9ECE5;
+  	color: #3B3A36;
   	font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar-default {
-	background-color: #292929;
+	background-color: #C0DFD9;
 }
 
 .navbar-default .navbar-brand {
 	font-family: Arial, Helvetica, sans-serif;
-	font-weight: 400;
-	color: #D5641C;
+	font-weight: 250;
+	color: #3B3A36;
 	font-size: 30px;
 }
 
 .navbar-default .navbar-nav > li >a {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 16px;
-	font-weight: bold;
-	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: 200;
+	color: #3B3A36;
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-	background-color: #D5641C
+	background-color: #66ABA1;
+	color: #3B3A36;
 }
 
 .navbar-default .navbar-header > a:hover, .navbar-default .navbar-header > a:focus {
-	color: #D5641C
+	color: #3B3A36;
 }
 
 .center {
@@ -60,3 +62,14 @@ body {
 	}
 }
 
+/*
+.table tbody tr > td, tr > th {
+	background-color: #FFFFFF;
+}
+*/
+
+.table tbody tr > th {
+	font-size: 18px;
+	font-weight: 200;
+	color: #3B3A36;
+}
