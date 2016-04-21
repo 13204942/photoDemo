@@ -73,3 +73,16 @@ body {
 	font-weight: 200;
 	color: #3B3A36;
 }
+
+.jumbotron {
+  	text-align: right;
+	height: 350px;
+	background-size: cover;
+	background-image: url('jumbotron.jpg');
+	h1, h2 {
+		font-family: Arial, Helvetica, sans-serif;
+		font-weight: 80;
+		color: #E9ECE5; 
+	}
+}
+
